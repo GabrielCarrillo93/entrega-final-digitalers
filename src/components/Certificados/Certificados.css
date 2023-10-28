@@ -1,0 +1,35 @@
+@import url('../../Styles/variables.css');
+
+.certificados{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fondo-componente);
+    padding: 16px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.certificados h2{
+    font-size: var(--titulo-size);
+    font-weight: var(--titulo-weight);
+    line-height: var(--titulo-ln);
+    color: var(--gris-oscuro);
+}
+
+@media screen and (min-width: 1200px){
+    .certificados{
+        width: 100%;
+    }
+
+    .certificados>.row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+    }
+
+    [class^="certificado-"]{
+        width: 25%;
+    }
+}

@@ -1,0 +1,26 @@
+@import url('../../Styles/variables.css');
+
+.experiencias{
+    padding: 16px;
+    margin: 0.5rem 0;
+    background-color: var(--fondo-componente);
+    display: grid;
+    grid-template-columns: auto;
+    gap: 16px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.experiencias>h2{
+    font-size: var(--titulo-size);
+    font-weight: var(--titulo-weight);
+    line-height: var(--titulo-ln);
+    color: var(--gris-oscuro);
+}
+
+@media screen and (min-width:1200px){
+    .experiencias{
+        width: 39%;
+        float: left;
+    }
+}
