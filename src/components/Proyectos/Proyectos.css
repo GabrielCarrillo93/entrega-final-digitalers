@@ -1,0 +1,42 @@
+@import url('../../Styles/variables.css');
+
+.proyectos{
+    background-color: var(--fondo-componente);
+    margin: 0.5rem 0;
+    border-radius: 12px;
+    position: relative;
+}
+
+.none{
+    display: none;
+}
+
+@media screen and (min-width: 1200px){
+    .proyectos{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        float: right;
+        max-height: 105vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        gap: 32px;
+        position: relative;
+    }
+
+    .proyectos::-webkit-scrollbar{
+        background-color: var(--fondo-componente);
+        width: 10px;
+    }
+
+    .proyectos::-webkit-scrollbar-thumb{
+        background-color: var(--azulito);
+        border-radius: 12px;
+        width: 10px;
+    }
+
+    .none{
+        display: grid;
+    }
+}

@@ -26,7 +26,6 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 48px;
     }
 
     [class^="certificado-"]{

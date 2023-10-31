@@ -1,0 +1,86 @@
+@import url('../../Styles/variables.css');
+
+.experiencia-{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: auto;
+    border: 1px solid var(--gris-clarito);
+    border-radius: 12px;
+    padding: 8px 4px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: space-around;
+    border-radius: 12px;
+}
+
+.puesto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row>.puesto, .row>.descripcion{
+    flex: 1;
+}
+
+.puesto h3{
+    font-size: var(--titulo2-size);
+    font-weight: var(--texto-weight);
+    line-height: var(--textit2-ln);
+    align-self: baseline;
+}
+
+.puesto span{
+    font-size: var(--texto3-size);
+    font-weight: var(--texto3-weight);
+    line-height: var((--texto3-ln));
+    color: var(--gris-claro);
+    align-self: baseline;
+}
+
+.puesto img{
+    margin: 0.3rem;
+    border: none;
+    border-radius: 0;
+}
+
+p{
+    font-size: var(--texto2-size);
+    font-weight: var(--texto2-weight);
+    line-height: var(--textit2-ln);
+    color: var(--gris-claro);
+}
+
+.none{
+    display: none;
+}
+
+@media screen and (min-width:1200px){
+
+    .experiencia-{
+        grid-template-columns: 55%;
+        justify-content: space-around;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .row>.puesto{
+        flex-direction: row;
+        margin: 5px 0;
+    }
+
+    p{
+        margin: 5px 0;
+    }
+
+    .none{
+        display: grid;
+    }
+
+}

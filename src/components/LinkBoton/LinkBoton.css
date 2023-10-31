@@ -1,0 +1,20 @@
+.demo, .code{
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 12px;
+    font-size: var(--texto-size);
+    font-weight: var(--texto-weight);
+    line-height: var(--texto-ln);
+}
+
+.demo{
+    background-color: var(--azulito);
+    color: var(--fondo);
+    margin-right: 8px;
+}
+
+.code{
+    background-color: var(--fondo-componente);
+    color: var(--gris-claro);
+    border: 1px solid var(--gris-claro);
+}
