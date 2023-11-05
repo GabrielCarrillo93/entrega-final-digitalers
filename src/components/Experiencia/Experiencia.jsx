@@ -1,9 +1,10 @@
 import './Experiencia.css'
 
 // eslint-disable-next-line react/prop-types
-const Experiencia = ({imagen, duracion, titulo, descripcion}) => {
+const Experiencia = ({imagen, duracion, titulo, descripcion, name}) => {
+    
     return (
-        <article className="experiencia- fade experienciaSlide">
+        <article name={name} className="experiencia- fade experienciaSlide">
             <div className="row">
                 <div className="puesto">
                     <img src={imagen} alt="" />

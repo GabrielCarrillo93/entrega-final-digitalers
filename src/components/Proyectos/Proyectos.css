@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.none{
+.proyectos-none{
     display: none;
 }
 
@@ -36,7 +36,7 @@
         width: 10px;
     }
 
-    .none{
+    .proyectos-none{
         display: grid;
     }
 }

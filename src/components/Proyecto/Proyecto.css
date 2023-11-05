@@ -6,6 +6,7 @@
     grid-template-columns: auto;
     gap: 16px;
     border-radius: 12px;
+    background-color: var(--fondo-componente);
 }
 
 .proyecto- img{
@@ -38,9 +39,10 @@
     margin-top: 16px;
 }
 
-.none{
+.proyectos-none{
     display: none;
 }
+
 
 @media screen and (min-width: 1200px){
     .proyecto-{
@@ -56,7 +58,8 @@
         justify-content: space-between;
     }
 
-    .none{
+    .proyectos-none{
         display: grid;
     }
+
 }   

@@ -10,6 +10,10 @@
     margin: 0.5rem 0;
 }
 
+.skills .row{
+    display: grid;
+}
+
 .skills>h2{
     font-size: var(--titulo-size);
     font-weight: var(--titulo-weight);

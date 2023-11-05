@@ -55,7 +55,7 @@ p{
     color: var(--gris-claro);
 }
 
-.none{
+.experiencias-none{
     display: none;
 }
 
@@ -79,7 +79,7 @@ p{
         margin: 5px 0;
     }
 
-    .none{
+    .experiencias-none{
         display: grid;
     }
 

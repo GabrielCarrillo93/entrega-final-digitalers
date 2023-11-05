@@ -16,6 +16,11 @@
     color: var(--gris-oscuro);
 }
 
+.certificados > .row{
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (min-width: 1200px){
     .certificados{
         width: 100%;

@@ -2,9 +2,9 @@ import LinkBoton from "../LinkBoton/LinkBoton"
 import './Proyecto.css'
 
 // eslint-disable-next-line react/prop-types
-const Proyecto = ({imagen, tags, titulo, descripcion, demo, code}) => {
+const Proyecto = ({imagen, tags, titulo, descripcion, demo, code, name}) => {
     return (
-        <article className="proyecto- proyectosSlide fade">
+        <article name={name} className="proyecto- proyectosSlide fade">
             <div>
                 <img src={imagen} alt="" />
             </div>
