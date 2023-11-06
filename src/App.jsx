@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 import Certificados from './components/Certificados/Certificados'
 import Experiencias from './components/Experiencias/Experiencias'
@@ -10,7 +10,8 @@ import Skills from './components/Skills/Skills'
 
 
 function App() {
-    const [proyectos, setProyectos] = useState("responsive")
+    const [proyectos, setProyectos] = useState("responsive");
+    console.log("hola");
 
     return (
         <>

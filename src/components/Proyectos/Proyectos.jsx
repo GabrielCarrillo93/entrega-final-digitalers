@@ -29,13 +29,15 @@ const Proyectos = ({mostrar}) => {
             });
     }, [mostrar]);
 
-    let indice = 0;
-    
+    let indice = 1;
+
     useEffect(() => {
         setHijos(getLista("proyecto"));
     }, [indice])
 
-    mostrarSlides(indice, hijos, "proyectos-none")
+    indice++;
+
+    mostrarSlides(indice, hijos, "proyectos-none");
 
 
     return (
