@@ -13,11 +13,9 @@ function App() {
     const [recarga, setRecarga] = useState(1)
 
     //tuve que hacer esto para forzar que se vea el carrousel en mobile
-    
     useEffect(() => {
         setTimeout(() =>{
             setRecarga(2)
-            console.log(recarga);
         }, 500)
     }, [recarga])
     
