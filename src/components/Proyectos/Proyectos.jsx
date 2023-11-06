@@ -31,7 +31,7 @@ const Proyectos = ({mostrar}) => {
 
     useEffect(() => {
         setHijos(getLista("proyecto"));
-    }, [])
+    }, [indice])
 
     let indice = 0;
     mostrarSlides(indice, hijos, "proyectos-none")
