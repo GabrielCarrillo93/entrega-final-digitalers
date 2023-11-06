@@ -20,7 +20,7 @@ function App() {
     
     useEffect(() => {
       console.log("hola");
-    }, [recarga])
+    }, [])
     
 
     return (
