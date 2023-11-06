@@ -16,10 +16,10 @@ function App() {
     
     useEffect(() => {
         setTimeout(() =>{
-            setRecarga(recarga + 1)
+            setRecarga(2)
             console.log(recarga);
-        }, 100)
-    }, [])
+        }, 500)
+    }, [recarga])
     
 
     return (
