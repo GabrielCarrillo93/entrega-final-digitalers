@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react'
 import './App.css'
 import Certificados from './components/Certificados/Certificados'
@@ -18,8 +17,8 @@ function App() {
     useEffect(() => {
         setTimeout(() =>{
             setRecarga(recarga + 1)
+            console.log(recarga);
         }, 100)
-      console.log(recarga);
     }, [])
     
 
