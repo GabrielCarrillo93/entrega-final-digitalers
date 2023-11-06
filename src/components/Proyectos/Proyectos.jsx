@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import Boton from '../Boton/Boton'
 import Spinner from '../Spinner/Spinner'
-//import Proyecto from '../Proyecto/Proyecto'
 import './Proyectos.css'
 import Proyecto from '../Proyecto/Proyecto'
 import { /*chequearAnterior, chequearSiguiente,*/ getLista, mostrarSlides } from '../../assets/funciones'
@@ -31,7 +30,7 @@ const Proyectos = ({mostrar}) => {
 
     useEffect(() => {
         setHijos(getLista("proyecto"));
-    }, [])
+    }, [mostrar])
 
     let indice = 0;
     mostrarSlides(indice, hijos, "proyectos-none")
